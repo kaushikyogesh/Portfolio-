@@ -1,220 +1,785 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yogesh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yogesh Kaushik | AI/ML & Data Analytics</title>
+
+    <meta name="description"
+        content="Yogesh Kaushik - B.Tech CSE AI & ML student, AI & Data Analytics Intern and Web Developer. Explore my projects, skills and experience.">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-    <div class="bg-animation">
+
+<!-- Background Animation -->
+<div class="bg-animation">
     <span></span>
     <span></span>
     <span></span>
     <span></span>
     <span></span>
 </div>
-   
-   
-    
-    <nav>
-        <button id="theme-btn">🌙</button>
-    <a href="#">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-   
 
-    <h1>Hi, I'm Yogesh Kaushik 👋</h1>
-   
+<!-- Navigation -->
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            Yogesh<span>.</span>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <button id="theme-btn" title="Toggle Theme">
+                🌙
+            </button>
+
+            <button class="menu-btn" id="menu-btn">
+                ☰
+            </button>
+        </div>
+
+    </nav>
+</header>
 
 
+<!-- Hero Section -->
+<section id="home" class="hero">
+
+    <div class="hero-content" data-aos="fade-right">
+
+        <p class="hero-tag">
+            <i class="fa-solid fa-code"></i>
+            Welcome to my portfolio
+        </p>
+
+        <h1>
+            Hi, I'm <span>Yogesh Kaushik</span> 👋
+        </h1>
+
+        <h2>
+            B.Tech CSE (AI & ML)
+        </h2>
+
+        <p class="hero-description">
+            I am an <strong>AI & Data Analytics Intern</strong> passionate
+            about Artificial Intelligence, Machine Learning, Data Analytics,
+            Web Development and problem solving.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary-btn">
+                <i class="fa-solid fa-rocket"></i>
+                View My Projects
+            </a>
+
+            <a href="./resume.pdf" target="_blank" class="btn secondary-btn">
+                <i class="fa-solid fa-file-pdf"></i>
+                View Resume
+            </a>
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/kaushikyogesh"
+                target="_blank"
+                title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/yogesh-kaushik-8733a8349"
+                target="_blank"
+                title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:yk3326378@gmail.com"
+                title="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-card" data-aos="fade-left">
+
+        <div class="profile-circle">
+            <i class="fa-solid fa-user-tie"></i>
+        </div>
+
+        <h3>AI/ML & Data Analytics</h3>
+
+        <p>
+            Building intelligent solutions and
+            exploring real-world technology.
+        </p>
+
+        <div class="stats">
+
+            <div>
+                <strong>9.3</strong>
+                <span>CGPA</span>
+            </div>
+
+            <div>
+                <strong>4+</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>AI</strong>
+                <span>Focus</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
-<h2>B.Tech CSE (AI & ML)</h2>
+<!-- About Section -->
+<section id="about" class="section">
 
-<p>I am AI & Data Analytics intern
-    passionate about AI,Machine Learning & Data Analytics
-</p>
+    <div class="section-heading" data-aos="fade-up">
+        <p>Get To Know Me</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-card" data-aos="fade-right">
+
+            <div class="about-icon">
+                <i class="fa-solid fa-user-graduate"></i>
+            </div>
+
+            <h3>Who I Am</h3>
+
+            <p>
+                I am Yogesh Kaushik, a B.Tech Computer Science Engineering
+                student specializing in Artificial Intelligence and Machine
+                Learning.
+            </p>
+
+            <p>
+                I am passionate about AI, Data Analytics, Web Development,
+                Java, Data Structures & Algorithms and building real-world
+                technology solutions.
+            </p>
+
+            <p>
+                I enjoy learning new technologies, developing innovative
+                projects and continuously improving my technical and
+                problem-solving skills.
+            </p>
+
+        </div>
+
+        <div class="about-highlights" data-aos="fade-left">
+
+            <div class="highlight-card">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Exploring intelligent and data-driven solutions.</p>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <div>
+                    <h3>Data Analytics</h3>
+                    <p>Working with data to discover meaningful insights.</p>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and user-friendly web experiences.</p>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <div>
+                    <h3>Problem Solving</h3>
+                    <p>Improving logical thinking through DSA and coding.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
+<!-- Skills Section -->
+<section id="skills" class="section">
+
+    <div class="section-heading" data-aos="fade-up">
+        <p>My Technical Expertise</p>
+        <h2>My <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-category" data-aos="zoom-in">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h3>Programming</h3>
+
+            <div class="skills">
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in">
+
+            <i class="fa-solid fa-globe"></i>
+
+            <h3>Web Development</h3>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>AI & Data</h3>
+
+            <div class="skills">
+                <span>AI/ML</span>
+                <span>Data Analytics</span>
+                <span>Machine Learning</span>
+                <span>Excel</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in">
+
+            <i class="fa-solid fa-database"></i>
+
+            <h3>CS Fundamentals</h3>
+
+            <div class="skills">
+                <span>DSA</span>
+                <span>OOP</span>
+                <span>DBMS</span>
+                <span>MySQL</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in">
+
+            <i class="fa-brands fa-github"></i>
+
+            <h3>Tools</h3>
+
+            <div class="skills">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>PowerPoint</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
+<!-- Projects Section -->
+<section id="projects" class="section">
 
-    <hr>
-    <h2 data-aos="fade-center"> About Me</h2>
-    
-    
-
-<p>
-I am Yogesh Kaushik, a B.Tech Computer Science Engineering (AI & ML) student with a passion for Web Development, Java, Data Structures & Algorithms, and Artificial Intelligence. I enjoy building real-world projects, learning new technologies, and improving my problem-solving skills. My goal is to become a skilled Software Engineer and create innovative technology solutions.
-</p>
-
-<h2 id="skills"  data-aos="zoom-in"></h2>
-<section id="projects"data-aos="fade-up">
-    <h2>My Projects</h2>
+    <div class="section-heading" data-aos="fade-up">
+        <p>What I Have Built</p>
+        <h2>My <span>Projects</span></h2>
+    </div>
 
     <div class="project-container">
 
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>My personal portfolio created using HTML and CSS.</p>
-            <a href="#">View Project</a>
+
+        <!-- Portfolio -->
+        <div class="project-card" data-aos="fade-up">
+
+            <div class="project-image">
+                <img src="images/portfolio.png"
+                    alt="Personal Portfolio">
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">01</span>
+
+                <h3>💼 Personal Portfolio</h3>
+
+                <p>
+                    A modern responsive personal portfolio website
+                    showcasing my skills, education, experience and
+                    projects with an interactive user interface.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/kaushikyogesh/portfolio-"
+                        target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="project-card">
-    <img src="images/calculator.png" alt="Calculator">
 
-    <div class="project-content">
-        <h3>🧮 Calculator</h3>
+        <!-- Calculator -->
+        <div class="project-card" data-aos="fade-up">
 
-        <p>
-            A responsive calculator built using HTML, CSS, and JavaScript.
-            It performs basic arithmetic operations with a clean and user-friendly interface.
-        </p>
+            <div class="project-image">
+                <img src="images/calculator.png"
+                    alt="Calculator">
+            </div>
 
-        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-content">
 
-        <div class="project-links">
-            <a href="https://github.com/kaushikyogesh/python---calculator" target="_blank">GitHub</a>
-            <a href="#"></a>
+                <span class="project-number">02</span>
+
+                <h3>🧮 Calculator</h3>
+
+                <p>
+                    A responsive calculator application built with
+                    a clean and user-friendly interface for performing
+                    basic arithmetic operations.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/kaushikyogesh/python---calculator"
+                        target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
-    </div>
-</div>
-        <div class="project-card">
-    <img src="images/ayurvista.png" alt="AyurVista">
 
-    <div class="project-content">
-        <h3>🌿 AyurVista – AI Powered Virtual Herbal Garden</h3>
 
-        <p>
-            An AI-powered Virtual Herbal Garden that helps users explore medicinal
-            plants, learn their benefits, view plant information, and interact
-            with an intelligent chatbot for a better learning experience.
-        </p>
+        <!-- AyurVista -->
+        <div class="project-card" data-aos="fade-up">
 
-        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, MongoDB, Three.js</p>
+            <div class="project-image">
+                <img src="images/ayurvista.png"
+                    alt="AyurVista">
+            </div>
 
-        <div class="project-links">
-            <a href="https://github.com/kaushikyogesh/ayurvista" target="_blank">GitHub</a>
-            <a href="#">view project</a>
+            <div class="project-content">
+
+                <span class="project-number">03</span>
+
+                <h3>🌿 AyurVista</h3>
+
+                <p>
+                    An AI-powered Virtual Herbal Garden that helps
+                    users explore medicinal plants, learn their benefits,
+                    view plant information and interact with an
+                    intelligent chatbot.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                    <span>Three.js</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/kaushikyogesh/ayurvista"
+                        target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
-    </div>
-</div>
+
+
+        <!-- Bharat Bench -->
+        <div class="project-card featured-project" data-aos="fade-up">
+
+            <div class="featured-badge">
+                Featured Project
+            </div>
+
+            <div class="project-image">
+
+                <img src="images/bharat-bench.png"
+                    alt="Bharat-Bench">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">04</span>
+
+                <h3>🇮🇳 Bharat-Bench</h3>
+
+                <h4>
+                    AI Evaluation Benchmark for India
+                </h4>
+
+                <p>
+                    Bharat-Bench is an AI evaluation benchmark framework
+                    designed to evaluate AI models on Indian domain-specific
+                    knowledge across schemes, compliance, mobility and
+                    curriculum using structured datasets and a
+                    Python-based evaluation harness.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>JSONL</span>
+                    <span>AI Evaluation</span>
+                    <span>GitHub</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/kaushikyogesh/Bharat-bench"
+                        target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://bharat-bench-yk3326378-1023s-projects.vercel.app"
+                        target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Live Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
+
 </section>
 
 
-    <h2 class="section-title">Education & Experience</h2>
+<!-- Experience & Education -->
+<section id="experience" class="section">
+
+    <div class="section-heading" data-aos="fade-up">
+        <p>My Journey</p>
+        <h2>Education & <span>Experience</span></h2>
+    </div>
 
     <div class="timeline">
 
-        <div class="timeline-box">
-            <h3>B.Tech CSE (AI & ML)</h3>
-            <span>2024 - 2028</span>
-            <p>Trinity Institute of Innovation & Professional Studies (GGSIPU)</p>
-            <p><strong>CGPA:</strong> 9.3</p>
+        <div class="timeline-item" data-aos="fade-right">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-box">
+
+                <span>2024 - 2028</span>
+
+                <h3>B.Tech CSE (AI & ML)</h3>
+
+                <h4>
+                    Trinity Institute of Innovation &
+                    Professional Studies (GGSIPU)
+                </h4>
+
+                <p>
+                    Pursuing Bachelor of Technology in Computer Science
+                    Engineering with specialization in Artificial
+                    Intelligence and Machine Learning.
+                </p>
+
+                <strong>CGPA: 9.3</strong>
+
+            </div>
+
         </div>
 
-        <div class="timeline-box">
-            <h3>AI & Data Analytics Intern</h3>
-            <span>2026 - Present</span>
-            <p>Working on AI, Data Analytics, LinkedIn Networking and Real-world Projects.</p>
+
+        <div class="timeline-item" data-aos="fade-left">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-box">
+
+                <span>2026 - Present</span>
+
+                <h3>AI & Data Analytics Intern</h3>
+
+                <h4>Internship Experience</h4>
+
+                <p>
+                    Working on AI, Data Analytics, LinkedIn Networking
+                    and real-world technology projects while gaining
+                    practical industry experience.
+                </p>
+
+            </div>
+
         </div>
 
     </div>
+
 </section>
 
 
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+
+    <div class="section-heading" data-aos="fade-up">
+        <p>Let's Connect</p>
+        <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info" data-aos="fade-right">
+
+            <h3>Let's Work Together 🚀</h3>
+
+            <p>
+                Have a project idea, internship opportunity,
+                collaboration or just want to connect?
+                Feel free to reach out.
+            </p>
+
+            <div class="contact-item">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:yk3326378@gmail.com">
+                        yk3326378@gmail.com
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:+919306756843">
+                        +91 9306756843
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <div>
+                    <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/yogesh-kaushik-8733a8349"
+                        target="_blank">
+                        Connect on LinkedIn
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class="fa-brands fa-github"></i>
+
+                <div>
+                    <span>GitHub</span>
+                    <a href="https://github.com/kaushikyogesh"
+                        target="_blank">
+                        View GitHub Profile
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
 
 
+        <form class="contact-form" data-aos="fade-left">
 
-<h2 id="contact"></h2>
+            <input type="text"
+                placeholder="Your Name"
+                required>
 
-<h2 id="contact"data-aos="fade-left">
+            <input type="email"
+                placeholder="Your Email"
+                required>
 
-<form>
-    <input type="text" placeholder="Your Name"><br><br>
+            <textarea
+                placeholder="Your Message"
+                rows="6"
+                required></textarea>
 
-    <input type="email" placeholder="Your Email"><br><br>
+            <button type="submit"
+                class="btn primary-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                Send Message
+            </button>
 
-    <textarea placeholder="Your Message"></textarea><br><br>
+        </form>
 
-    
-</form>
-<button type="submit">Send Message</button>
+    </div>
 
-<h2 id="contact"></h2>
+</section>
 
-<div class="contact-box">
 
-<p>📧 Email:
-<a href="mailto:yk3326378@gmail.com">
-yk3326378@gmail.com
-</a>
-</p>
-
-<p>📱 Mobile:
-<a href="tel:+919306756843">
-+91 9306756843
-</a>
-</p>
-
-<p>💼 LinkedIn:
-<a href="https://www.linkedin.com/in/yogesh-kaushik-8733a8349" target="_blank">
-https://www.linkedin.com/in/yogesh-kaushik-8733a8349
-</a>
-</p>
-
-<p>💻 GitHub:
-<a href="https://github.com/kaushikyogesh" target="_blank">
-    https://github.com/kaushikyogesh
-
-</a>
-</p>
-
-</div>
-    <p>
-         I am a BTECH CSE AIML student passionate about web development and AIML/data analytics,java and dsa
-
-    </p>
-    <h2>Skills</h2>
-       
-
-<div class="skills">
-    <div class="skill">C</div>
-    <div class="skill">C++</div>
-    <div class="skill">Java</div>
-    <div class="skill">HTML</div>
-    <div class="skill">CSS</div>
-    <div class="skill">JavaScript</div>
-    <div class="skill">DSA</div>
-    <div class="skill">OOP</div>
-    <div class="skill">AI & Data Analytics</div>
-</div>
-    
-</button>
-
-<script src="script.js"></script>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-<script>
-AOS.init({
-    duration: 1000,
-    once: true
-});
-</script>
+<!-- Footer -->
 <footer class="footer">
+
     <h3>Yogesh Kaushik</h3>
-    <p>AI & Data Analytics Intern | Web Developer</p>
+
+    <p>
+        AI & Data Analytics Intern | AI/ML Enthusiast |
+        Web Developer
+    </p>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/kaushikyogesh"
+            target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/yogesh-kaushik-8733a8349"
+            target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:yk3326378@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </div>
 
     <p class="copy">
         © 2026 Yogesh Kaushik. All Rights Reserved.
     </p>
+
 </footer>
+
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+<script src="script.js"></script>
+<div class="hero-card" data-aos="fade-left">
+
+    <div class="profile-photo">
+        <img src="images/photo.jpg.jpeg" alt="Yogesh Kaushik">
+    </div>
+
+    <h3>AI/ML & Data Analytics</h3>
+
+    <p>
+        Building intelligent solutions and
+        exploring real-world technology.
+    </p>
+
+    <div class="stats">
+
+        <div>
+            <strong>9.3</strong>
+            <span>CGPA</span>
+        </div>
+
+        <div>
+            <strong>4+</strong>
+            <span>Projects</span>
+        </div>
+
+        <div>
+            <strong>AI</strong>
+            <span>Focus</span>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
+```
